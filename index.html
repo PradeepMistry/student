@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body{
+    background-image: url("static/1.jpg");
+    background-repeat: no-repeat;
+  background-size: 200% 300%;
+}        
+.by
+{
+font-size: 65px;
+text-align: left;
+color:blue;
+font-weight: 900;
+ text-shadow: 2px 2px #FFFFFF;
+ padding-left:20px;
+bottom-padding:50px;
+padding-top: 50px;
+}
+.city
+{
+color:red;
+padding: 35px;
+font-size: 30px;
+padding-left: 20px;
+}
+.zoom {
+  padding: 10px;
+  background-color: red;
+  transition: transform .2s;
+  width: 150px;
+  height: 50px;
+  margin: 100 auto;
+  color:white;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.a1{
+	 padding: 10px;
+  background-color: green;
+  transition: transform .2s;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;ss
+  color:white;
+ right:50px; top:2px;
+ align-items: center;
+}
+.a1:hover{
+-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.topnav {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="gallery">Gallery</a>
+  <a href="aboutus">About us</a>
+  <a href="feedback">Feedback</a>
+</div>
+<div class ="by">Image Forgery Detection</div>
+<div class ="city"> It provided an open dataset of digital images<br>comprising of images taken under different <br>lighting conditions,forged images created<br> using algorithms.</div>
+<a href="getstarted">
+<button class="zoom" style="margin:20px">Get Started</button></a>
+<a href="history">
+<button class="a1">History</button></a>
+</body>
+</html>
