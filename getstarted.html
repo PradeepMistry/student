@@ -1,10 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <head>
+<head>
+	<style>
+		body{
+			  background-image: url("static/ll.png");
+    background-repeat: no-repeat;
+  background-size: 100% 110%;
+}
+.l{
+	text-align: center;
+	 color: white;
+ position: relative;
+  font-size:50px;
+left:-23px;
+top:160px;
+}
+.m{
+	
+ position: relative;
+top:190px;
+text-align:center;
+}
+.bt{
+	 background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 230px 580px;
+  cursor: pointer;
+transition: transform .2s;
+}
+.bt:hover{
+-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+</style>
+</head>
+<body>
+<div class ="l">Click Here To Upload File</div>
+<div class="m">
+<input type="file" id="myFile"></div>
 
-           <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="exec('python main_GUI.py');">
-
-        </head>
-    </body>
+<button class="bt">UPLOAD</button>
+<button type="submit">l</button>
+</body>
 </html>
